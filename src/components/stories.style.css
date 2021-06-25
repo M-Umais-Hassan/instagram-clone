@@ -1,0 +1,26 @@
+.stories__container {
+  background: #fff;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider__img {
+  margin: 0 5px;
+  border: 2px solid #f83a63;
+  border-radius: 50px;
+  padding: 3px;
+  min-width: 60px;
+  height: 60px;
+}
+
+.slider__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+}

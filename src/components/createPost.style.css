@@ -1,0 +1,44 @@
+.create__post__container {
+  background: #fff;
+  padding: 5px 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.create__post__container input {
+  width: calc(100% - 40px);
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid rgba(200, 200, 200, 1);
+  border-radius: 3px;
+  padding: 20px;
+  text-overflow: ellipsis;
+}
+
+.create__post__container .bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.create__post__container .bottom button.camera {
+  color: #f83a63;
+  font-size: 35px;
+  background: none;
+  cursor: pointer;
+}
+
+.create__post__container .bottom button.create__post {
+  background: #f83a63;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 2px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}

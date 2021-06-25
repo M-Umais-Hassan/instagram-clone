@@ -1,0 +1,16 @@
+.home__container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home__container .left__side {
+  flex: 60%;
+  margin-right: 20px;
+  max-width: calc(60% - 200px);
+}
+
+.home__container .right__side {
+  flex: 40%;
+  max-width: calc(40% - 200px);
+}
